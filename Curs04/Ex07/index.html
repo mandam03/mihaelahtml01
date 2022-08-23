@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
+  <title>ex07</title>
 
   <link
     rel="stylesheet"
@@ -17,6 +17,130 @@
 
 <body>
 
+  <p>
+    <a
+      href="/"
+      title="home"
+    >Home</a> *
+
+    <a
+      href=""
+      title="Place Order"
+    ><b>Place Order</b></a> *
+
+    <a
+      href="/"
+      title="Customer Service"
+    >Customer Service</a> *
+
+    <a
+      href="/"
+      title="Contact"
+    >Contact</a>
+
+
+  </p>
+
+  <h1>Place Order</h1>
+  <!-- de adaugat cod -->
+
+
+  <p>
+    <img
+      src="images/mouse.jpg"
+      alt="mouse"
+    >
+
+    <a
+      href="/"
+      title="Sterge"
+    >Sterge</a>
+
+    <a
+      href="/"
+      title="Editeaza"
+    >Editeaza</a>
+
+  </p>
+
+
+  <!-- code -->
+
+  <h2>Order Now</h2>
+
+  <form>
+
+    <fieldset>
+      <legend>Personal information</legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>Addess</legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>Card Information</legend>
+
+      <label for="card-expiry-month">*Expiry-Month</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+
+
+      </select>
+
+      <label for="card-expiry-year">*Expiry Year</label>
+
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+
+        <option value="2019">2019</option>
+        <option value="2019">2019</option>
+        <option value="2019">2019</option>
+        <option value="2019">2019</option>
+
+      </select>
+
+    </fieldset>
+
+    <!-- insert code -->
+
+
+    <fieldset>
+      <legend>Form controls</legend>
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms">*You are required to agree to the
+        <a
+          href="/"
+          title="terms and conditions"
+        >terms and conditions</a>
+      </label>
+      <br>
+
+      <button
+        type="submit"
+        id="submit"
+        title="PLACE ORDER"
+        name="submit"
+      >PLACE ORDER</button>
+    </fieldset>
+
+  </form>
 
   <div
     class="pixeltab-host"
