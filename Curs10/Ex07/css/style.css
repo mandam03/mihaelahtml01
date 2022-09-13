@@ -20,3 +20,24 @@
   background-color: red;
   border-radius: 50%;
 }
+
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.my-second-list a::after {
+  content: '';
+  display: inline-block;
+  transform: rotate(45deg);
+  background-color: blue;
+  height: 10px;
+  width: 10px;
+  margin-left: 8px;
+}
+
+.my-second-list a {
+  display: block;
+}
