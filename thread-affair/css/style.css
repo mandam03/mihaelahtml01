@@ -497,8 +497,367 @@ a {
 /* footer */
 .footer-primary {
   background-color: #1b1927;
+  background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat 120%
+    center;
+  padding: 50px 50px 35px 50px;
+  /* mostenibile/ inheritable */
+  font-size: 14px;
+  font-weight: 300;
+  color: #aeaeae;
+  line-height: 20px;
+  text-transform: uppercase;
 }
+
+.footer-nav {
+  margin-bottom: 40px;
+}
+
+.footer-nav ul {
+  display: inline-block;
+  margin-left: 60px;
+  vertical-align: top;
+}
+
+.footer-nav ul:first-child {
+  margin-left: 0;
+}
+
+.footer-support {
+  display: inline-block;
+}
+
+.footer-support li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-support li:nth-child(2) {
+  margin: 0 16px;
+}
+
+.footer-support i[class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 28px;
+  display: block;
+  margin-top: 4px;
+}
+
+.footer-contact {
+  display: inline-block;
+  margin-left: 157px;
+}
+
+.footer-contact h1 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer-contact h1 span {
+  font-weight: 500;
+}
+
+.footer-contact p {
+  text-transform: initial;
+}
+
+.footer-contact a[href^='tel:'] {
+  display: block;
+}
+
+.footer-contact a[href^='mailto:'] {
+  color: #ff6b6b;
+}
+
+.footer-secondary {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 22px 0;
+}
+
+.footer-secondary p {
+  margin-bottom: 4px;
+}
+
+.footer-secondary p img {
+  vertical-align: sub;
+}
+
 /* footer */
 
 /* homepage */
+
+.content-main > section {
+  margin-bottom: 98px;
+}
+
+.content-main > section > header {
+  margin-bottom: 50px;
+}
+
+.content-main > section > header h1 {
+  line-height: 59px;
+  font-size: 41px;
+  text-align: center;
+  color: #292929;
+  font-weight: 300;
+}
+
+/* nu vrem mai mult de 4 per selector */
+
+.content-main > section > header h1 span {
+  font-weight: 500;
+}
+
+.content-main > section > header p {
+  font-weight: 300;
+  text-align: center;
+  line-height: 24px;
+}
+
+.banner-main {
+  height: 524px;
+  background: #1b1927 url('../images/banners/banner-01.jpg') center center /
+    cover no-repeat;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 96px;
+}
+
+.banner-main .banner-main-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: inherit;
+  padding-left: 75px;
+  position: relative;
+}
+
+.banner-main .banner-main-inner > div {
+  text-align: center;
+}
+
+.banner-main .banner-title {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.banner-main .banner-subtitle {
+  font-size: 42px;
+  font-weight: 300;
+  margin: 16px 0 36px 0;
+}
+
+.banner-main .banner-cta {
+  display: inline-block;
+  text-align: center;
+  padding: 27px 40px;
+  font-weight: 400;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 1px solid #ff6b6b;
+  border-radius: 40px;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.banner-main .banner-cta:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
+.banner-main .banner-copy {
+  position: absolute;
+  bottom: 40px;
+  left: 75px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.home-catalog-preview ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-catalog-preview ul li {
+  width: 27.386541%;
+  /* Formula: 350 * 100 /1278= 27.3865541% */
+}
+
+.home-catalog-preview .product-tile {
+  width: 100%;
+}
+
+.home-catalog-preview .home-catalog-ctas {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.home-catalog-preview .home-catalog-ctas a {
+  text-transform: lowercase;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.home-catalog-preview .home-catalog-ctas a::after,
+.home-catalog-preview .home-catalog-ctas a::before {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: #ff6b6b;
+  content: '';
+  transition: width 0.4s linear;
+}
+
+.home-catalog-preview .home-catalog-ctas a:hover::after,
+.home-catalog-preview .home-catalog-ctas a:hover::before {
+  width: 72px;
+}
+
+.product-tile {
+  font-size: 24px;
+  text-align: center;
+}
+
+.product-tile .product-tile-image {
+  position: relative;
+}
+
+.product-tile .product-tile-image a {
+  display: block;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-image .product-tile-badge {
+  color: #ff6b6b;
+  font-weight: 500;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.product-tile .product-tile-title {
+  font-weight: 300;
+  margin: 18px 0 12px 0;
+}
+
+.product-tile .product-tile-title span:first-child {
+  color: #000;
+  font-weight: 500;
+}
+
+.product-tile .product-tile-title :nth-child(2) {
+  font-weight: 500;
+}
+
+.product-tile .product-tile-subtitle {
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.product-tile .product-tile-pricing {
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+.product-tile .product-tile-pricing .product-tile-regular-price {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.product-tile .product-tile-pricing .product-tile-price span {
+  color: #ff6b6b;
+  font-weight: 500;
+}
+
+/* a2c ==> add to cart */
+.product-tile .product-tile-a2c {
+  background: none;
+  border: 0;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 1px solid #ff6b6b;
+  padding: 12px 24px;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: color 0.4s linear, background-color 0.4s linear;
+  font-weight: 400;
+}
+
+.product-tile .product-tile-a2c:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
+.home-cta a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 236px;
+  background: #1b1927 url('../images/banners/banner-04.jpg') center center /
+    cover no-repeat;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.home-cta a > span {
+  margin-top: 16px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.home-cta a > span span {
+  font-weight: 500;
+}
+
+.home-social ul {
+  text-align: center;
+}
+
+.home-social li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.home-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.home-payment ul {
+  text-align: center;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.home-payment li {
+  display: inline-block;
+  margin: 2px;
+}
 /* homepage */
