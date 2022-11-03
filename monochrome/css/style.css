@@ -453,12 +453,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  font-family: 'Playfair Display', serif;
+
+* {
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Playfair Display', serif;
+  color: #707070;
+  font-size: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .container {
   max-width: 1270px;
   margin: 0 auto;
   width: 100%;
+}
+
+.header {
+  margin: 30px auto;
+}
+
+.header-secodary .header-connect {
+  float: left;
+}
+
+.header-secondary .header-controls > ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
